@@ -1,0 +1,400 @@
+/*========================================
+            DESKTOP XL
+========================================*/
+
+@media (max-width:1600px){
+
+.social-grid{
+
+width:92%;
+
+grid-template-columns:repeat(3,1fr);
+
+}
+
+.contact-box{
+
+width:92%;
+
+}
+
+.gallery-section{
+
+width:92%;
+
+}
+
+.hero h1{
+
+font-size:54px;
+
+}
+
+}
+
+
+/*========================================
+              LAPTOP
+========================================*/
+
+@media (max-width:1200px){
+
+header{
+
+padding:30px 40px;
+
+}
+
+.hero h1{
+
+font-size:46px;
+
+}
+
+.hero p{
+
+font-size:20px;
+
+}
+
+.social-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+gap:22px;
+
+}
+
+.contact-box{
+
+flex-wrap:wrap;
+
+gap:25px;
+
+justify-content:center;
+
+padding:30px;
+
+}
+
+.divider{
+
+display:none;
+
+}
+
+.gallery-track img{
+
+width:280px;
+
+height:190px;
+
+}
+
+}
+
+
+/*========================================
+                TABLET
+========================================*/
+
+@media (max-width:992px){
+
+header{
+
+flex-direction:column;
+
+gap:20px;
+
+padding:30px 20px;
+
+}
+
+.hero{
+
+margin-top:10px;
+
+padding:0 25px;
+
+}
+
+.hero h1{
+
+font-size:40px;
+
+line-height:1.4;
+
+}
+
+.hero p{
+
+font-size:18px;
+
+}
+
+.title-decoration span{
+
+width:60px;
+
+}
+
+.social-grid{
+
+grid-template-columns:1fr 1fr;
+
+}
+
+.contact-box{
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+row-gap:25px;
+
+}
+
+.gallery-section{
+
+gap:15px;
+
+}
+
+.gallery-track img{
+
+width:240px;
+
+height:170px;
+
+}
+
+.slider-btn{
+
+width:55px;
+
+height:55px;
+
+}
+
+}
+
+
+/*========================================
+              MOBILE
+========================================*/
+
+@media (max-width:768px){
+
+header{
+
+padding:20px;
+
+}
+
+.logo img{
+
+height:60px;
+
+}
+
+.header-text{
+
+font-size:18px;
+
+text-align:center;
+
+}
+
+.hero h1{
+
+font-size:34px;
+
+}
+
+.hero p{
+
+font-size:17px;
+
+}
+
+.social-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.card{
+
+padding:30px 20px;
+
+}
+
+.card h3{
+
+font-size:26px;
+
+}
+
+.contact-box{
+
+grid-template-columns:1fr;
+
+padding:25px;
+
+}
+
+.contact-item{
+
+justify-content:flex-start;
+
+}
+
+.gallery-section{
+
+flex-direction:column;
+
+}
+
+.gallery-track{
+
+width:100%;
+
+overflow-x:auto;
+
+scroll-snap-type:x mandatory;
+
+}
+
+.gallery-track img{
+
+width:100%;
+
+max-width:340px;
+
+height:220px;
+
+scroll-snap-align:center;
+
+}
+
+.slider-btn{
+
+display:none;
+
+}
+
+footer{
+
+font-size:17px;
+
+padding:30px 15px;
+
+text-align:center;
+
+}
+
+}
+
+
+/*========================================
+           SMALL PHONES
+========================================*/
+
+@media (max-width:480px){
+
+.hero{
+
+padding:0 18px;
+
+}
+
+.hero h1{
+
+font-size:28px;
+
+}
+
+.hero p{
+
+font-size:16px;
+
+}
+
+.icon{
+
+width:70px;
+
+height:70px;
+
+font-size:30px;
+
+}
+
+.card h3{
+
+font-size:22px;
+
+}
+
+.card p{
+
+font-size:16px;
+
+}
+
+.contact-icon{
+
+width:60px;
+
+height:60px;
+
+font-size:22px;
+
+}
+
+.contact-item h4{
+
+font-size:18px;
+
+}
+
+.contact-item p{
+
+font-size:15px;
+
+}
+
+.gallery-track img{
+
+height:200px;
+
+}
+
+}
+
+
+/*========================================
+        VERY SMALL DEVICES
+========================================*/
+
+@media (max-width:360px){
+
+.hero h1{
+
+font-size:24px;
+
+}
+
+.card{
+
+padding:25px 15px;
+
+}
+
+.gallery-track img{
+
+height:180px;
+
+}
+
+}
