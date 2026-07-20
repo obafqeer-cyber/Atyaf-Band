@@ -186,111 +186,110 @@ height:55px;
 @media (max-width:768px){
 
 header{
-
 padding:20px;
-
 }
 
 .logo img{
-
 height:60px;
-
 }
 
 .header-text{
-
 font-size:18px;
-
 text-align:center;
+}
 
+.hero{
+padding:0 20px;
 }
 
 .hero h1{
-
 font-size:34px;
-
+line-height:1.4;
 }
 
 .hero p{
-
 font-size:17px;
-
 }
 
+/*---------- Social Cards ----------*/
+
 .social-grid{
-
-grid-template-columns:1fr;
-
+width:92%;
+grid-template-columns:repeat(2,1fr);
+gap:16px;
 }
 
 .card{
+padding:22px 15px;
+border-radius:22px;
+}
 
-padding:30px 20px;
-
+.icon{
+width:65px;
+height:65px;
+font-size:28px;
+margin-bottom:18px;
 }
 
 .card h3{
-
-font-size:26px;
-
+font-size:20px;
+margin-bottom:8px;
 }
 
+.card p{
+font-size:14px;
+line-height:1.5;
+}
+
+/*---------- Contact ----------*/
+
 .contact-box{
-
+width:92%;
 grid-template-columns:1fr;
-
 padding:25px;
-
+gap:22px;
 }
 
 .contact-item{
-
 justify-content:flex-start;
-
 }
 
+.contact-icon{
+width:60px;
+height:60px;
+font-size:22px;
+}
+
+/*---------- Gallery ----------*/
+
 .gallery-section{
-
+width:92%;
 flex-direction:column;
-
 }
 
 .gallery-track{
-
 width:100%;
-
 overflow-x:auto;
-
 scroll-snap-type:x mandatory;
-
 }
 
 .gallery-track img{
-
 width:100%;
-
 max-width:340px;
-
 height:220px;
-
 scroll-snap-align:center;
-
 }
 
 .slider-btn{
-
 display:none;
-
 }
 
+/*---------- Footer ----------*/
+
 footer{
-
-font-size:17px;
-
+font-size:16px;
 padding:30px 15px;
-
 text-align:center;
-
 }
 
 }
