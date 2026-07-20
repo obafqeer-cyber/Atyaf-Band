@@ -367,9 +367,14 @@ background:#111;
 
 }
 
-.facebook{
+.whatsapp{
 
-background:#33ce6c;
+background:#25D366;
+
+}
+.instagram1{
+
+background:#25D366;
 
 }
 
@@ -898,3 +903,5 @@ transition:all .35s ease;
     transform:translateY(-3px);
     box-shadow:0 15px 35px rgba(107,68,45,.35);
 }
+
+
