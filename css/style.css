@@ -874,5 +874,27 @@ transition:all .35s ease;
 
 .atyaf-btn{
     display:block;
-    margin:0 auto 25px;
+    margin:0 auto 30px;
+
+    background:#6b442d;
+    color:#fff;
+
+    border:none;
+    border-radius:50px;
+
+    padding:14px 38px;
+
+    font-family:'Cairo',sans-serif;
+    font-size:22px;
+    font-weight:700;
+
+    box-shadow:0 10px 25px rgba(107,68,45,.25);
+
+    transition:.3s ease;
+}
+
+.atyaf-btn:hover{
+    background:#7b5137;
+    transform:translateY(-3px);
+    box-shadow:0 15px 35px rgba(107,68,45,.35);
 }
