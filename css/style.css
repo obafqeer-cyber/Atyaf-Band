@@ -872,3 +872,7 @@ transition:all .35s ease;
            END STYLE
 =========================================*/
 
+.atyaf-btn{
+    display:block;
+    margin:0 auto 25px;
+}
